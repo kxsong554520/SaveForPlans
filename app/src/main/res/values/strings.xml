@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SaveForPlans</string>
+    <string name="save_for_plans">SAVE FOR PLANS</string>
+    <string name="add_plans">Add Plans</string>
+    <string name="view_existing_plans">View Existing Plans</string>
+    <string name="bank_account_expenses">Bank Account and Expenses</string>
+
+</resources>
