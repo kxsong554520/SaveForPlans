@@ -1,0 +1,111 @@
+<!-- activity_savings_spending.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+
+    <!-- Back button in the top left -->
+
+    <!-- Logo of the app at the top -->
+
+    <!-- Title "Bank Account and Expenses" -->
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="11dp"
+        android:background="#000000"
+        android:text="Back"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/btnBack"/>
+
+    <!-- Title "Bank Account and Expenses" -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank Account and Expenses"
+        android:textSize="18sp"
+        android:layout_below="@id/appLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <!-- Savings Account textview -->
+    <TextView
+        android:id="@+id/tvSavingsAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Savings Account"
+        android:textSize="16sp"
+        android:layout_below="@id/tvTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Money textview (initially set as 0) -->
+    <TextView
+        android:id="@+id/tvMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RM 0"
+        android:textSize="24sp"
+        android:layout_below="@id/tvSavingsAccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <!-- Edit Amount button for money -->
+    <Button
+        android:id="@+id/btnEditAmountMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Amount"
+        android:layout_below="@id/tvMoney"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Textview "Daily Expenses" -->
+    <TextView
+        android:id="@+id/tvDailyExpenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Expenses"
+        android:textSize="16sp"
+        android:layout_below="@id/btnEditAmountMoney"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Textview displaying expenses in money (initially set as 0) -->
+    <TextView
+        android:id="@+id/totalExpenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RM 0"
+        android:textSize="24sp"
+        android:layout_below="@id/tvDailyExpenses"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <!-- Edit Amount button for expenses -->
+    <Button
+        android:id="@+id/btnEditAmountExpenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Amount"
+        android:layout_below="@id/totalExpenses"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

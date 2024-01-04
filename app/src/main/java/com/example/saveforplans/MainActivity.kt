@@ -1,5 +1,6 @@
 package com.example.saveforplans
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -20,6 +21,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onClickBankAccountExpenses(view: View) {
+        val intent = Intent(this, Savings_Spending::class.java)
+        startActivity(intent)
 
     }
 }
