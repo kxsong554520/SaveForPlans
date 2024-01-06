@@ -21,7 +21,7 @@
         android:layout_marginStart="6dp"
         android:layout_marginTop="11dp"
         android:background="#000000"
-        android:text="Back"
+        android:text="@string/backBtnTxt"
         android:textColor="#FFFFFF" />
 
     <ImageView
@@ -35,10 +35,10 @@
 
     <!-- Title "Bank Account and Expenses" -->
     <TextView
-        android:id="@+id/tvTitle"
+        android:id="@+id/bankTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bank Account and Expenses"
+        android:text="@string/bank_acc_txt"
         android:textSize="18sp"
         android:layout_below="@id/appLogo"
         android:layout_centerHorizontal="true"
@@ -46,23 +46,23 @@
 
     <!-- Savings Account textview -->
     <TextView
-        android:id="@+id/tvSavingsAccount"
+        android:id="@+id/SavingsAccountTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Savings Account"
+        android:text="@string/savings_account_txt"
         android:textSize="16sp"
-        android:layout_below="@id/tvTitle"
+        android:layout_below="@id/bankTitle"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp" />
 
     <!-- Money textview (initially set as 0) -->
     <TextView
-        android:id="@+id/tvMoney"
+        android:id="@+id/MoneyTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="RM 0"
         android:textSize="24sp"
-        android:layout_below="@id/tvSavingsAccount"
+        android:layout_below="@id/SavingsAccountTitle"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp" />
 
@@ -72,16 +72,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Edit Amount"
-        android:layout_below="@id/tvMoney"
+        android:layout_below="@id/MoneyTitle"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp" />
 
     <!-- Textview "Daily Expenses" -->
     <TextView
-        android:id="@+id/tvDailyExpenses"
+        android:id="@+id/DailyExpensesTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Daily Expenses"
+        android:text="@string/daily_expenses_txt"
         android:textSize="16sp"
         android:layout_below="@id/btnEditAmountMoney"
         android:layout_centerHorizontal="true"
@@ -92,9 +92,9 @@
         android:id="@+id/totalExpenses"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RM 0"
+        android:text="@string/expense_initial"
         android:textSize="24sp"
-        android:layout_below="@id/tvDailyExpenses"
+        android:layout_below="@id/DailyExpensesTitle"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp" />
 
@@ -103,7 +103,7 @@
         android:id="@+id/btnEditAmountExpenses"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Edit Amount"
+        android:text="@string/edit_amt_btn_txt"
         android:layout_below="@id/totalExpenses"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp" />

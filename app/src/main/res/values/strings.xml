@@ -6,5 +6,11 @@
     <string name="bank_account_expenses">Bank Account and Expenses</string>
     <string name="backBtnDesc">Back</string>
     <string name="acntExpenseTxt">Bank Account and Expenses</string>
+    <string name="backBtnTxt">Back</string>
+    <string name="bank_acc_txt">Bank Account and Expenses</string>
+    <string name="savings_account_txt">Savings Account</string>
+    <string name="daily_expenses_txt">Daily Expenses</string>
+    <string name="expense_initial">RM 0</string>
+    <string name="edit_amt_btn_txt">Edit Amount</string>
 
 </resources>
