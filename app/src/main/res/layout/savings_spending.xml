@@ -4,13 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingStart="16dp"
-    android:paddingEnd="16dp">
+    android:paddingEnd="16dp"
+    android:background="@color/light_orange">
 
-    <!-- Back button in the top left -->
-
-    <!-- Logo of the app at the top -->
-
-    <!-- Title "Bank Account and Expenses" -->
 
     <Button
         android:id="@+id/btnBack"
